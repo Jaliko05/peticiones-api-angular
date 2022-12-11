@@ -50,7 +50,7 @@ export class ShowUsrUptcComponent {
         closeModalBtn.click();
       }
 
-      var showUpdateSuccess = document.getElementById('update-success-alert');
+      var showUpdateSuccess = document.getElementById('delete-success-alert');
       if (showUpdateSuccess) {
         showUpdateSuccess.style.display = 'block';
       }
